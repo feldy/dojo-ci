@@ -1,0 +1,90 @@
+<form dojoAttachPoint="containerNode" enctype="multipart/form-data">
+    <table cellpadding="3" cellspacing="3"> 
+      <tr>
+        <td>Nam (Test)a</td>
+        <td>:</td>
+        <td>
+         <!--  <input dojoType="dijit.form.FilteringSelect" store="null" searchAttr="mix" 
+            highlightMatch="all"
+            ignoreCase="false"
+            queryExpr= "*"
+            id="${txt1}"/> -->
+            <input type="text" id="cmbGrid" />
+            <div id="filteringDiv"></div>
+
+        </td>
+      </tr>
+       <tr>
+        <td>Username</td>
+        <td>:</td>
+        <td>
+          <input dojoType="dijit.form.TextBox" 
+            name="username"
+            id="${txt2}"/>
+             <input dojoType="dijit.form.TextBox" 
+            name="photo"
+            type="hidden"
+            id="photo"/>
+           <input type="text" name="income1" id="income1" value="54775.53" dojoType="dijit.form.CurrencyTextBox"
+required="true" constraints="{fractional:true}" currency="RP" invalidMessage="Invalid amount.  Cents are required.">
+        </td>
+      </tr>
+       <tr>
+        <td>Password</td>
+        <td>:</td>
+        <td>
+          <input dojoType="dijit.form.TextBox" 
+            name="password"
+            id="${txt3}"/>
+            <input dojoType="dijit.form.TextBox" 
+            type="hidden"
+            id="sidHidden"/>
+        </td>
+      </tr>
+      <tr>
+        <td>isActive</td>
+        <td>:</td>
+        <td>
+          <select dojoType="dijit.form.Select" 
+            name="isActive"
+            id="${txt4}">
+            <option value="0">Non Active</option>
+            <option value="1">Active</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+           <a jsId="testLightBox"
+               dojoType="dojox.image.LightboxNano"
+               group="1"
+               style="width: 50px; height: 50px;"
+               href="application/views/app/upload/no_image.jpg"> 
+                <img src="application/views/app/upload/no_image.jpg"
+                     id="testLightBoxSrc"
+                     style="width: 50px; height: 50px; "/>
+            </a>
+               <input  type="file"
+                       multiple="false"
+                       id="testLightBoxUploader"
+                       name="testLightBoxUploader"
+                       label="Upload"
+                       force="iframe"
+                       url="index.php/test_controller/getPhotoUploaded/"
+                       dojoType="dojox.form.Uploader"
+                       style="width: 80px; "/>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <button dojoType="dijit.form.Button" id="btn1">Simpan</button>
+          <button dojoType="dijit.form.Button" id="btn2">Refresh</button>
+          <button dojoType="dijit.form.Button" id="btn3">Delete</button>
+        </td>
+      </tr>
+    </table>
+</form>

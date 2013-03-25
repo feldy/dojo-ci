@@ -1,0 +1,29 @@
+ [{
+		"nama":"CP01",
+		"keterangan":"haloo",
+		"alamat":"Ciputat"
+	}, {
+		"nama":"CP02",
+		"keterangan":"haloo",
+		"alamat":"Pondok Indah"
+	}, {
+		"nama":"CP03",
+		"keterangan":"haloo",
+		"alamat":"Pondok Pinang"
+	}, {
+		"nama":"CP04",
+		"keterangan":"haloo",
+		"alamat":"Kabayoran Lama"
+	}, {
+		"nama":"CP05",
+		"keterangan":"haloo",
+		"alamat":"Tanah Kusir"
+	}, {
+		"nama":"CP06",
+		"keterangan":"haloo",
+		"alamat":"Bintaro"
+	}, {
+		"nama":"CP07",
+		"keterangan":"haloo",
+		"alamat":"Ulujami"
+}]

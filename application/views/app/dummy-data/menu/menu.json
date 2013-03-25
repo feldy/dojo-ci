@@ -1,0 +1,23 @@
+{
+	"identifier": "id",
+	"label": "name",
+	"items": [{ 
+		"id": "parentMenu1", 
+		"name":"Parent 1", 
+		"type":"rootNode",
+		"children":[{
+			"id": "test_first_menu", 
+			"name":"Menu 1", 
+			"type":"subNode" 
+		}]
+	}, { 
+		"id": "parentMenu2", 
+		"name":"Parent 2", 
+		"type":"rootNode",
+		"children":[{
+			"id": "test_first_menu_2", 
+			"name":"Menu 2", 
+			"type":"subNode" 
+		}]
+	}
+]}
